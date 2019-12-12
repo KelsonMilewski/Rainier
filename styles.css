@@ -18,21 +18,71 @@ margin: 0;
 	padding-bottom: .1em;
 }
 
+.Abt{
+	padding-left: .5em;
+}
+
 .imghome img {
 	width: 100%;
 	image-resolution: from-image;
 	background-position: center;
 	
-}
+	}
 
 .contact{
 	padding-left: .5em;
-	
+
 }
 
 .venusfly{
-	padding-left: 4em;
-	padding-top: 4em;
-  
-	 
+	position: absolute; 
+	top: 105px;
+	bottom: 100px; 
+	left: 20px;
+}
+
+.pitcher{
+	position: absolute; 
+	top: 105px;
+	bottom: 100px;
+	left: 250px;
+}
+
+.sundew{
+	position: absolute;
+	top: 105px;
+	bottom: 100px;
+	left: 480px;
+}
+
+.Bladderworts{
+	position: absolute; 
+	top: 105px;
+	bottom: 100px;
+	left: 710px;
+}
+
+.Nepenthes {
+	position: absolute; 
+	top: 105px;
+	bottom: 100px;
+	left: 940px;
+	
+}
+
+.Cephalotus{
+	position: absolute; 
+	top: 105px;
+	bottom: 100px;
+	left: 1170px;
+}
+
+.Socialmedia{
+	text-align: center;
+
+}
+
+.Logo{
+	position: absolute; top: 0px; bottom: 0px;
+	
 }
