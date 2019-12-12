@@ -1,0 +1,38 @@
+/* CSS Document */
+body{
+margin: 0;
+
+}
+.h1index{
+  text-align: center;
+  background-color: forestgreen;
+  margin: 0;
+  padding-top: .25em;
+  padding-bottom: .25em;
+}
+
+.Navigation{
+	text-align: center;
+	background-color: greenyellow;
+	padding-top: .05em;
+	padding-bottom: .1em;
+}
+
+.imghome img {
+	width: 100%;
+	image-resolution: from-image;
+	background-position: center;
+	
+}
+
+.contact{
+	padding-left: .5em;
+	
+}
+
+.venusfly{
+	padding-left: 4em;
+	padding-top: 4em;
+  
+	 
+}
