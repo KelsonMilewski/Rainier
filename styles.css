@@ -7,7 +7,7 @@ body {
 
 /* navbar */
 .navbar {
-	background: #333333;
+	background: #1f1f1f;;
 	overflow: auto;
 	display: flex;
 	position: absolute;
