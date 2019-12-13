@@ -1,88 +1,88 @@
 /* CSS Document */
-body{
-margin: 0;
-
-}
-.h1index{
-  text-align: center;
-  background-color: forestgreen;
-  margin: 0;
-  padding-top: .25em;
-  padding-bottom: .25em;
+body {
+	margin: 0;
+	font-family: 'Abel', sans-serif;
+	color: white;
 }
 
-.Navigation{
-	text-align: center;
-	background-color: greenyellow;
-	padding-top: .05em;
-	padding-bottom: .1em;
-}
-
-.Abt{
-	padding-left: .5em;
-}
-
-.imghome img {
-	width: 100%;
-	image-resolution: from-image;
-	background-position: center;
-	
-	}
-
-.contact{
-	padding-left: .5em;
-
-}
-
-.venusfly{
-	position: absolute; 
-	top: 105px;
-	bottom: 100px; 
-	left: 20px;
-}
-
-.pitcher{
-	position: absolute; 
-	top: 105px;
-	bottom: 100px;
-	left: 250px;
-}
-
-.sundew{
+/* navbar */
+.navbar {
+	background: #333333;
+	overflow: auto;
+	display: flex;
 	position: absolute;
-	top: 105px;
-	bottom: 100px;
-	left: 480px;
+	width: 100%;
+}
+.logo {
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-left: 30px;
+	float: left;
+}
+nav {
+	margin-top: 14px;
+}
+nav ul {
+	list-style: none;
+	display: flex;
+}
+nav ul li {
+	text-transform: uppercase;
+	padding-right: 20px;
+	font-size: 16pt;
+}
+a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+a:hover {
+    color: gray;
 }
 
-.Bladderworts{
-	position: absolute; 
-	top: 105px;
-	bottom: 100px;
-	left: 710px;
+/* main content */
+.title-section {
+	background-image: url("images/terrarium.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+.content {
+	width: 80%;
+	margin: 50px auto;
+}
+article {
+	background: #333333;
+	overflow: auto;
 }
 
-.Nepenthes {
-	position: absolute; 
-	top: 105px;
-	bottom: 100px;
-	left: 940px;
-	
+/* product box */
+.product {
+	background: #1f1f1f;
+	width: 20%;
+}
+.product-description {
+    background: #1f1f1f;
+    overflow: auto;
+    padding: 20px;
+}
+.product-img {
+    width: 100%;
+    margin: 0;
 }
 
-.Cephalotus{
-	position: absolute; 
-	top: 105px;
-	bottom: 100px;
-	left: 1170px;
+/* product table */
+table {
+	border-spacing: 20px;
+	margin: 0 auto;
 }
 
-.Socialmedia{
-	text-align: center;
-
+p {
+	font-size: 14pt;
 }
-
-.Logo{
-	position: absolute; top: 0px; bottom: 0px;
-	
+textarea {
+	font-family: 'Calibri', sans-serif;
+	font-size: 14pt;
+	padding: 10px;
 }
