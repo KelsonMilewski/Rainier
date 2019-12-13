@@ -1,20 +1,26 @@
 /* CSS Document */
-body{
+body {
 	margin: 0;
+	font-family: 'Abel', sans-serif;
+	color: white;
 }
+
 /* navbar */
 .navbar {
-	background: forestgreen;
+	background: #333333;
 	overflow: auto;
 	display: flex;
+	position: absolute;
+	width: 100%;
 }
-.logo{
+.logo {
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-left: 30px;
 	float: left;
 }
 nav {
-	text-align: center;
-	padding-top: .05em;
-	padding-bottom: .1em;
+	margin-top: 14px;
 }
 nav ul {
 	list-style: none;
@@ -23,76 +29,60 @@ nav ul {
 nav ul li {
 	text-transform: uppercase;
 	padding-right: 20px;
+	font-size: 16pt;
 }
-
-.Abt{
-	padding-left: .5em;
-}
-
-.imghome {
-	width: 100%;
-	image-resolution: from-image;
-	background-position: center;
-}
-
-.contact{
-	padding-left: .5em;
-
-}
-
-.venusfly{
-	position: absolute; 
-	top: 105px;
-	bottom: 100px; 
-	left: 20px;
-}
-
-.pitcher{
-	position: absolute; 
-	top: 105px;
-	bottom: 100px;
-	left: 250px;
-}
-
-.sundew{
-	position: absolute;
-	top: 105px;
-	bottom: 100px;
-	left: 480px;
-}
-
-.Bladderworts{
-	position: absolute; 
-	top: 105px;
-	bottom: 100px;
-	left: 710px;
-}
-
-.Nepenthes {
-	position: absolute; 
-	top: 105px;
-	bottom: 100px;
-	left: 940px;
-	
-}
-
-.Cephalotus{
-	position: absolute; 
-	top: 105px;
-	bottom: 100px;
-	left: 1170px;
-}
-
-.Socialmedia{
-	text-align: center;
-
-}
-
 a {
-    color: black;
+    color: white;
     text-decoration: none;
     transition: color 0.5s;
 }
 a:hover {
     color: gray;
+}
+
+/* main content */
+.title-section {
+	background-image: url("images/terrarium.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+.content {
+	width: 80%;
+	margin: 50px auto;
+}
+article {
+	background: #333333;
+	overflow: auto;
+}
+
+/* product box */
+.product {
+	background: #1f1f1f;
+	width: 20%;
+}
+.product-description {
+    background: #1f1f1f;
+    overflow: auto;
+    padding: 20px;
+}
+.product-img {
+    width: 100%;
+    margin: 0;
+}
+
+/* product table */
+table {
+	border-spacing: 20px;
+	margin: 0 auto;
+}
+
+p {
+	font-size: 14pt;
+}
+textarea {
+	font-family: 'Calibri', sans-serif;
+	font-size: 14pt;
+	padding: 10px;
 }
