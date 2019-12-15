@@ -73,16 +73,6 @@ a:hover {
 .content {
 	width: 80%;
 	margin: 50px auto;
-}
-article {
-	background: #333333;
-	overflow: auto;
-}
-
-/* product box */
-.product {
-	background: #1f1f1f;
-	width: 20%;
 	animation: fadeIn ease 1s;
     animation-iteration-count: 1;
 	animation-fill-mode: forwards;
@@ -94,6 +84,16 @@ article {
     100% { 
 		opacity: 1;
      } 
+}
+article {
+	background: #333333;
+	overflow: auto;
+}
+
+/* product box */
+.product {
+	background: #1f1f1f;
+	width: 20%;
 }
 .product-description {
     background: #1f1f1f;
@@ -115,9 +115,11 @@ table {
 .social-icon {
 	height: 50px;
 	margin-right: 20px;
+	margin-top: 9px;
 }
 .social-link {
 	display: flex;
+	width: 50%;
 }
 
 /* random */
@@ -126,6 +128,6 @@ p {
 }
 textarea {
 	font-family: 'Calibri', sans-serif;
-	font-size: 14pt;
+	font-size: 12pt;
 	padding: 10px;
 }
