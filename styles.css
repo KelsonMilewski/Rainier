@@ -94,6 +94,7 @@ article {
 .product {
 	background: #1f1f1f;
 	width: 20%;
+	vertical-align: top;
 }
 .product-description {
     background: #1f1f1f;
