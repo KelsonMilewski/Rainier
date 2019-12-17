@@ -41,14 +41,6 @@ a:hover {
     color: gray;
 }
 
-/* collapse navbar */
-.dropdown-icon {
-	float: right;
-	margin-top: 20px;
-	margin-right: 20px;
-}
-
-
 /* main content */
 .title-section {
 	background-image: url("images/index-background.png");
@@ -139,8 +131,4 @@ textarea {
 	font-family: 'Calibri', sans-serif;
 	font-size: 12pt;
 	padding: 10px;
-}
-
-@media screen and (max-width: 1020px) {
-
 }
