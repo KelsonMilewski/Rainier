@@ -41,6 +41,20 @@ a:hover {
     color: gray;
 }
 
+/* collapse navbar */
+.collapse-navbar {
+
+}
+.dropdown-btn {
+	height: 40px;
+	margin: 20px 20px 0;
+	display: none;
+	float: right;
+}
+.dropdown {
+	list-style: none;
+}
+
 /* main content */
 .title-section {
 	background-image: url("images/index-background.png");
