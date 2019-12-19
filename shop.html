@@ -14,13 +14,22 @@
 			gtag('js', new Date());
 			gtag('config', 'UA-154593775-1');
 		</script>
+		<script>
+			function showHideNav() {
+				if (document.getElementById("dropdown").style.display === "none") {
+					document.getElementById("dropdown").style.display = "initial";
+				} else {
+					document.getElementById("dropdown").style.display = "none";
+				}
+			}
+		</script>
 	</head>
 	<body>
-		<div class="navbar" style="position: relative;">
+		<div class="navbar">
 			<img src="images/logo.png" alt="Logo" height="60px" class="logo">
 			<h1>Rainier Terrariums</h1>
 
-			<nav>
+			<nav class="expand-navbar">
 				<ul>
 					<li><a href="home.html">Home</a></li>
 					<li><a href="shop.html">Shop</a></li>
@@ -28,7 +37,16 @@
 					<li><a href="contact.html">Contact Us</a></li>
 				</ul>
 			</nav>
+			<nav class="collapse-navbar">
+				<img src="images/dropdown.png" alt="Pages" onclick="showHideNav()" class="dropdown-btn">
+			</nav>
 		</div>
+		<ul class="dropdown" id="dropdown">
+			<li><a href="home.html">Home</a></li>
+			<li><a href="shop.html">Shop</a></li>
+			<li><a href="social.html">Social Links</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+		</ul>
 
 		<article>
 			<div class="content">
