@@ -41,6 +41,33 @@ a:hover {
     color: gray;
 }
 
+/* collapse navbar */
+.collapse-navbar {
+	float: right;
+}
+.dropdown-btn {
+	height: 40px;
+	display: none;
+	float: right;
+	position: absolute;
+	right: 25px;
+	top: 22px;
+}
+.dropdown-btn:hover {
+	cursor: pointer;
+}
+.dropdown {
+	display: none;
+	position: absolute;
+	list-style: none;
+	font-size: 30pt;
+	background: #1f1f1f;
+	right: 0;
+	top: 43px;
+	z-index: 1;
+	padding: 30px;
+}
+
 /* main content */
 .title-section {
 	background-image: url("images/index-background.png");
@@ -61,7 +88,7 @@ a:hover {
     0% { 
 		opacity: 0;
 		top: 43vh;
-    } 
+    }
     100% { 
 		opacity: 1;
 		top: 38vh;
@@ -131,4 +158,25 @@ textarea {
 	font-family: 'Calibri', sans-serif;
 	font-size: 12pt;
 	padding: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+	
+}
+
+@media only screen and (max-width: 775px) {
+	.dropdown-btn {
+		display: initial;
+	}
+	.expand-navbar {
+		display: none;
+	}
+	.product {
+		display: block;
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	textarea {
+		width: 100%;
+	}
 }
