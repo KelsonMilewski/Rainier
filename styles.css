@@ -11,8 +11,10 @@ body {
 	background: #1f1f1f;;
 	overflow: auto;
 	display: flex;
-	position: absolute;
+	position: fixed;
 	width: 100%;
+	z-index: 1;
+	box-shadow: 0 0 10px #000000;
 }
 .logo {
 	margin-right: 10px;
