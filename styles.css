@@ -31,7 +31,7 @@ nav ul {
 nav ul li {
 	text-transform: uppercase;
 	padding-right: 20px;
-	font-size: 16pt;
+	font-size: 16pt;	
 }
 a {
     color: white;
@@ -40,6 +40,9 @@ a {
 }
 a:hover {
     color: gray;
+}
+.active-page {
+	color: gray;
 }
 
 /* collapse navbar */
