@@ -31,7 +31,7 @@ nav ul {
 nav ul li {
 	text-transform: uppercase;
 	padding-right: 20px;
-	font-size: 16pt;	
+	font-size: 16pt;
 }
 a {
     color: white;
@@ -85,18 +85,18 @@ a:hover {
 	position: absolute;
 	width: 100%;
     animation: fadeUpIn ease 3s;
-    animation-iteration-count: 1; 
-    animation-fill-mode: forwards; 
-} 
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
 @keyframes fadeUpIn {
-    0% { 
+    0% {
 		opacity: 0;
 		top: 43vh;
     }
-    100% { 
+    100% {
 		opacity: 1;
 		top: 38vh;
-     } 
+     }
 }
 .text-logo {
 	width: 70%;
@@ -109,12 +109,12 @@ a:hover {
 	animation-fill-mode: forwards;
 }
 @keyframes fadeIn {
-    0% { 
+    0% {
 		opacity: 0;
-    } 
-    100% { 
+    }
+    100% {
 		opacity: 1;
-     } 
+     }
 }
 article {
 	background: #333333;
@@ -154,6 +154,27 @@ table {
 	width: 50%;
 }
 
+/* footer */
+footer {
+	background: #1f1f1f;
+	overflow: auto;
+}
+.footer-logo {
+	height: 40px;
+	float: left;
+	padding: 30px 15px 20px 40px;
+}
+.footer-social-section {
+	float: right;
+	position: relative;
+	bottom: 25px;
+	right: 40px;
+}
+.footer-social {
+	height: 30px;
+	margin-left: 10px;
+}
+
 /* random */
 p {
 	font-size: 14pt;
@@ -165,7 +186,7 @@ textarea {
 }
 
 @media only screen and (max-width: 1000px) {
-	
+
 }
 
 @media only screen and (max-width: 775px) {
