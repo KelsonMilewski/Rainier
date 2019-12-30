@@ -162,7 +162,17 @@ footer {
 .footer-logo {
 	height: 40px;
 	float: left;
-	padding: 20px;
+	padding: 30px 15px 20px 40px;
+}
+.footer-social-section {
+	float: right;
+	position: relative;
+	bottom: 25px;
+	right: 40px;
+}
+.footer-social {
+	height: 30px;
+	margin-left: 10px;
 }
 
 /* random */
