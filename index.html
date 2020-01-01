@@ -20,7 +20,7 @@
 		<script>
 			function showHideNav() {
 				if (document.getElementById("dropdown").style.display === "none") {
-					document.getElementById("dropdown").style.display = "initial";
+					document.getElementById("dropdown").style.display = "flex";
 				} else {
 					document.getElementById("dropdown").style.display = "none";
 				}
@@ -44,7 +44,16 @@
 		</div>
 		<ul class="dropdown" id="dropdown">
 			<li><a href="index.html">Home</a></li>
-			<li><a href="shop.html">Shop</a></li>
+			<li>
+				<a>Shop</a>
+				<ul class="sub-dropdown">
+					<li><a href="shop.html">All</a></li>
+					<li><a href="terrariums.html">Terrariums</a></li>
+					<li><a href="materials.html">Materials</a></li>
+					<li><a href="plants.html">Plants</a></li>
+					<li><a href="critters.html">Critters</a></li>
+				</ul>
+			</li>
 	  		<li><a href="contact.html">Contact Us</a></li>
 		</ul>
 		<div class="title-section">

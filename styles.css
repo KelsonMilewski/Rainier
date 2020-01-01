@@ -65,12 +65,16 @@ a:hover {
 	position: absolute;
 	list-style: none;
 	font-size: 30pt;
-	background: #1f1f1f;
+	background: #111111;
 	right: 0;
 	top: 40px;
 	z-index: 1;
-	padding: 30px;
+	width: 100%;
 }
+.dropdown li {
+	margin: 30px auto;
+}
+
 
 /* main content */
 .title-section {
