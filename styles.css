@@ -44,6 +44,17 @@ a:hover {
 .active-page {
 	color: gray;
 }
+.nav-dropdown:hover {
+	opacity: 1;
+}
+.nav-dropdown ul {
+	opacity: 1;
+	background: #111111;
+	position: absolute;
+	top: 60px;
+	left: 500px;
+	z-index: 1;
+}
 
 /* collapse navbar */
 .collapse-navbar {
@@ -64,14 +75,27 @@ a:hover {
 	display: none;
 	position: absolute;
 	list-style: none;
-	font-size: 30pt;
+	font-size: 24pt;
 	background: #111111;
 	right: 0;
-	top: 40px;
+	top: 48px;
 	z-index: 1;
 	width: 100%;
 }
 .dropdown li {
+	margin: 30px auto;
+}
+.sub-dropdown {
+	background: #1f1f1f;
+	position: absolute;
+	display: none;
+	top: 153px;
+	width: 100%;
+	z-index: 1;
+	list-style: none;
+	font-size: 20pt;
+}
+.sub-dropdown li {
 	margin: 30px auto;
 }
 
