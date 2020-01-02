@@ -9,7 +9,6 @@ body {
 /* navbar */
 .navbar {
 	background: #1f1f1f;;
-	overflow: auto;
 	display: flex;
 	position: fixed;
 	width: 100%;
@@ -44,6 +43,24 @@ a:hover {
 .active-page {
 	color: gray;
 }
+.nav-dropdown-btn {
+	padding-bottom: 23px;
+}
+.nav-dropdown:hover {
+	cursor: pointer;
+}
+.nav-dropdown:hover .nav-dropdown-content {
+	display: block;
+}
+.nav-dropdown-content {
+	display: none;
+	background: #111111;
+	position: absolute;
+	top: 80px;
+	left: 524px;
+	z-index: 1;
+	padding: 20px;
+}
 
 /* collapse navbar */
 .collapse-navbar {
@@ -64,13 +81,30 @@ a:hover {
 	display: none;
 	position: absolute;
 	list-style: none;
-	font-size: 30pt;
-	background: #1f1f1f;
+	font-size: 24pt;
+	background: #111111;
 	right: 0;
-	top: 40px;
+	top: 48px;
 	z-index: 1;
-	padding: 30px;
+	width: 100%;
 }
+.dropdown li {
+	margin: 30px auto;
+}
+.sub-dropdown {
+	background: #1f1f1f;
+	position: absolute;
+	display: none;
+	top: 153px;
+	width: 100%;
+	z-index: 1;
+	list-style: none;
+	font-size: 20pt;
+}
+.sub-dropdown li {
+	margin: 30px auto;
+}
+
 
 /* main content */
 .title-section {
