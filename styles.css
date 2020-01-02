@@ -15,7 +15,14 @@ body {
 	z-index: 1;
 	box-shadow: 0 0 10px #000000;
 }
+.nav-text-logo {
+	display: initial;
+	padding: 10px 30px;
+	float: left;
+	height: 60px;
+}
 .nav-logo {
+	display: none;
 	padding: 10px 30px;
 	float: left;
 	height: 60px;
@@ -79,7 +86,7 @@ a:hover {
 }
 .dropdown {
 	display: none;
-	position: absolute;
+	position: fixed;
 	list-style: none;
 	font-size: 24pt;
 	background: #111111;
@@ -93,9 +100,9 @@ a:hover {
 }
 .sub-dropdown {
 	background: #1f1f1f;
-	position: absolute;
+	position: fixed;
 	display: none;
-	top: 153px;
+	top: 181px;
 	width: 100%;
 	z-index: 1;
 	list-style: none;
@@ -219,13 +226,18 @@ textarea {
 	padding: 10px;
 }
 
-@media only screen and (max-width: 1000px) {
-
-}
-
-@media only screen and (max-width: 775px) {
+@media only screen and (max-width: 768px) {
+	.nav-text-logo {
+		display: none;
+	}
+	.nav-logo {
+		display: initial;
+	}
 	.dropdown-btn {
 		display: initial;
+	}
+	.dropdown li {
+		font-size: 20pt;
 	}
 	.expand-navbar {
 		display: none;
