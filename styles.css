@@ -198,7 +198,6 @@ table {
 /* footer */
 footer {
 	background: #1f1f1f;
-	overflow: auto;
 }
 .footer-logo {
 	height: 40px;
@@ -249,5 +248,11 @@ textarea {
 	}
 	textarea {
 		width: 100%;
+	}
+	.footer-social-section {
+		position: static;
+		float: none;
+		margin: 20px 0;
+		text-align: center;
 	}
 }
