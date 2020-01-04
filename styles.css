@@ -129,16 +129,6 @@ a:hover {
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
-@keyframes fadeUpIn {
-    0% {
-		opacity: 0;
-		top: 43vh;
-    }
-    100% {
-		opacity: 1;
-		top: 38vh;
-     }
-}
 .text-logo {
 	width: 70%;
 }
@@ -149,20 +139,16 @@ a:hover {
     animation-iteration-count: 1;
 	animation-fill-mode: forwards;
 }
-@keyframes fadeIn {
-    0% {
-		opacity: 0;
-    }
-    100% {
-		opacity: 1;
-     }
-}
 article {
 	background: #333333;
 	overflow: auto;
 }
 
-/* product box */
+/* product table */
+table {
+	border-spacing: 20px;
+	margin: 0 auto;
+}
 .product {
 	background: #1f1f1f;
 	width: 20%;
@@ -176,23 +162,6 @@ article {
 .product-img {
     width: 100%;
     margin: 0;
-}
-
-/* product table */
-table {
-	border-spacing: 20px;
-	margin: 0 auto;
-}
-
-/* social */
-.social-icon {
-	height: 50px;
-	margin-right: 20px;
-	margin-top: 9px;
-}
-.social-link {
-	display: flex;
-	width: 50%;
 }
 
 /* footer */
@@ -255,4 +224,22 @@ textarea {
 		margin: 20px 0;
 		text-align: center;
 	}
+}
+@keyframes fadeIn {
+    0% {
+		opacity: 0;
+    }
+    100% {
+		opacity: 1;
+     }
+}
+@keyframes fadeUpIn {
+    0% {
+		opacity: 0;
+		top: 43vh;
+    }
+    100% {
+		opacity: 1;
+		top: 38vh;
+     }
 }
