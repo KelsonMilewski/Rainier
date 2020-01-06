@@ -40,15 +40,15 @@ nav ul li {
 	font-size: 16pt;
 }
 a {
-    color: white;
+    color: #AFAFAF;
     text-decoration: none;
     transition: color 0.5s;
 }
 a:hover {
-    color: gray;
+    color: #ffffff;
 }
 .active-page {
-	color: gray;
+	color: #ffffff;
 }
 .nav-dropdown-btn {
 	padding-bottom: 23px;
