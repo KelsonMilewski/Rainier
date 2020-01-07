@@ -149,6 +149,21 @@ h1 {
 .subtitle {
 	font-size: 24pt;
 }
+.send-btn {
+	font-size: 12pt;
+	font-family: 'Abel', sans-serif;
+	background: #1f1f1f;
+	color: #afafaf;
+	border: none;
+	padding: 10px;
+	margin-top: 5px;
+	border-radius: 5px;
+	transition: color 0.5s;
+}
+.send-btn:hover {
+	cursor: pointer;
+	color: #ffffff;
+}
 
 /* product table */
 table {
@@ -188,6 +203,12 @@ footer {
 .footer-social {
 	height: 30px;
 	margin-left: 10px;
+	position: relative;
+	bottom: 0;
+	transition: bottom 0.5s;
+}
+.footer-social:hover {
+	bottom: 10px;
 }
 
 /* random */
