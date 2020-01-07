@@ -125,7 +125,7 @@ a:hover {
 	text-align: center;
 	position: absolute;
 	width: 100%;
-    animation: fadeUpIn ease 3s;
+    animation: fadeUpIn ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
@@ -149,6 +149,21 @@ h1 {
 .subtitle {
 	font-size: 24pt;
 }
+.send-btn {
+	font-size: 12pt;
+	font-family: 'Abel', sans-serif;
+	background: #1f1f1f;
+	color: #afafaf;
+	border: none;
+	padding: 10px;
+	margin-top: 5px;
+	border-radius: 5px;
+	transition: color 0.5s;
+}
+.send-btn:hover {
+	cursor: pointer;
+	color: #ffffff;
+}
 
 /* product table */
 table {
@@ -156,9 +171,15 @@ table {
 	margin: 0 auto;
 }
 .product {
+	position: relative;
+	bottom: 0;
 	background: #1f1f1f;
 	width: 20%;
 	vertical-align: top;
+	transition: bottom 0.25s;
+}
+.product:hover {
+	bottom: 5px;	
 }
 .product-description {
     background: #1f1f1f;
@@ -188,6 +209,12 @@ footer {
 .footer-social {
 	height: 30px;
 	margin-left: 10px;
+	position: relative;
+	bottom: 0;
+	transition: bottom 0.5s;
+}
+.footer-social:hover {
+	bottom: 10px;
 }
 
 /* random */
