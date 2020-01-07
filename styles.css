@@ -143,6 +143,12 @@ article {
 	background: #333333;
 	overflow: auto;
 }
+h1 {
+	font-size: 30pt;
+}
+.subtitle {
+	font-size: 24pt;
+}
 
 /* product table */
 table {
