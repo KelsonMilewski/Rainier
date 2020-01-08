@@ -53,7 +53,7 @@ nav ul li:hover {
 a {
     color: #AFAFAF;
     text-decoration: none;
-    transition: color 0.5s;
+	transition: color 0.5s;
 }
 a:hover {
     color: #ffffff;
@@ -68,16 +68,20 @@ a:hover {
 	cursor: pointer;
 }
 .nav-dropdown:hover .nav-dropdown-content {
-	display: block;
+	display: inline;
 }
 .nav-dropdown-content {
 	display: none;
-	background: #111111;
 	position: absolute;
 	top: 80px;
-	left: 524px;
+	left: 484px;
 	z-index: 1;
-	padding: 20px;
+}
+.nav-dropdown-content li {
+	
+	display: block;
+	height: auto;
+	padding: 10px 20px;
 }
 
 /* collapse navbar */
