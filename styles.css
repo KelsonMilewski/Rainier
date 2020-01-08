@@ -12,6 +12,7 @@ body {
 	display: flex;
 	position: fixed;
 	width: 100%;
+	height: 80px;
 	z-index: 1;
 	box-shadow: 0 0 10px #000000;
 }
@@ -23,21 +24,31 @@ body {
 }
 .nav-logo {
 	display: none;
-	padding: 10px 30px;
+	margin: 10px 30px;
 	float: left;
 	height: 60px;
 }
 nav {
-	margin-top: 14px;
+	display: table;
+	height: 100%;
 }
 nav ul {
 	list-style: none;
-	display: flex;
+	height: 100%;
+	margin: 0;
+	display: table-row;
 }
 nav ul li {
+	display: table-cell;
 	text-transform: uppercase;
-	padding-right: 20px;
+	padding: 26px 20px 0;
 	font-size: 16pt;
+	height: 100%;
+	background: #1f1f1f;
+	transition: background 0.5s;
+}
+nav ul li:hover {
+	background: #333333;
 }
 a {
     color: #AFAFAF;
