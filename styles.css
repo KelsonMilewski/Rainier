@@ -132,6 +132,17 @@ a:hover {
 .text-logo {
 	width: 70%;
 }
+.background-section {
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	padding: 100px 0;
+}
+.background-section-content {
+	width: 80%;
+	margin: 0 auto;
+}
 .content {
 	width: 80%;
 	margin: 50px auto;
