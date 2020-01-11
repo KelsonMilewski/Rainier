@@ -1,4 +1,4 @@
-            <div class="navbar">
+        <div class="navbar">
 			<img src="images/text-logo.png" alt="Rainier Terrariums" class="nav-text-logo">
 			<img src="images/logo.png" alt="Rainier Terrariums" class="nav-logo">
 
