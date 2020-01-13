@@ -51,14 +51,14 @@ nav ul li:hover {
 	background: #333333;
 }
 a {
-    color: #AFAFAF;
-    text-decoration: none;
+	color: #AFAFAF;
+	text-decoration: none;
 	transition: color 0.5s;
 }
 a:hover {
     color: #ffffff;
 }
-.active-page {
+.current {
 	color: #ffffff;
 }
 .nav-dropdown-btn {
