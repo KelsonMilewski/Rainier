@@ -1,0 +1,11 @@
+These are things that either need to be done or ideas for the future.
+You can put items for either one of us to do.
+Put items in order of importance please.
+
+Ryan:
+
+- Fix navbar clicking (so you don't have to hover directly over the text)
+
+Kelson:
+
+- (if you have the time) I decided to make a filter which would be used to organize products in the shop in different ways based on price, how recent they were added, and then featured which would be whatever is most appealing at the top of the page. All code is copied from the shop pages, you just need to rearrange products based on the filter.
