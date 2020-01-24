@@ -6,8 +6,9 @@ Ryan:
 
 - Fix navbar clicking (so you don't have to hover directly over the text)
 - Fix mobile navbar
+- Create gallery page
 
 Kelson:
 
 - Find or take pictures to put on plant and critter care pages
-- Take pictures and create a gallery page
+- Take pictures for gallery page
