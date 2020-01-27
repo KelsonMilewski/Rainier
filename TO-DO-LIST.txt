@@ -4,7 +4,6 @@ Put items in order of importance please.
 
 Ryan:
 
-- Fix navbar clicking (so you don't have to hover directly over the text)
 - Fix mobile navbar
 - Create gallery page
 
