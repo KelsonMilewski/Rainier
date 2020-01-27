@@ -21,7 +21,7 @@ function focusImg1() {
     //document.getElementById('body').style.position = 'fixed'; 
     document.getElementById('gallery-focus').style.display = 'initial';
     document.getElementById('gallery-img1').style.position = 'absolute';
-    document.getElementById('gallery-img1').style.width = '80%';
+    document.getElementById('gallery-img1').style.width = '30%';
     document.getElementById('gallery-img1').style.top = '20vh';
     document.getElementById('gallery-img1').style.zIndex = '2';
 }
