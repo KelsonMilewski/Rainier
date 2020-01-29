@@ -166,6 +166,7 @@ a:hover {
 	margin: 0 auto;
 }
 .content {
+	overflow: auto;
 	width: 80%;
 	margin: 50px auto;
 	animation: fadeIn ease 1s;
@@ -222,6 +223,25 @@ table {
 .product-img {
     width: 100%;
     margin: 0;
+}
+
+/* product page */
+.product-pg-img {
+	width: 35%;
+	float: left;
+}
+.product-pg-description {
+	float: right;
+	width: 60%;
+}
+.buy-btn {
+	padding: 10px;
+	background: #1EB80B;
+	float: left;
+	overflow: none;
+}
+.buy-btn p {
+	margin: 0;
 }
 
 /* footer */
