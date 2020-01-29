@@ -234,14 +234,18 @@ table {
 	float: right;
 	width: 60%;
 }
+.product-pg-description ul {
+	float: none;
+}
 .buy-btn {
 	padding: 10px;
-	background: #1EB80B;
+	background: #1f1f1f;
 	float: left;
-	overflow: none;
+	margin: 14px 20px;
 }
 .buy-btn p {
 	margin: 0;
+	font-size: 12pt;
 }
 
 /* footer */
