@@ -166,6 +166,7 @@ a:hover {
 	margin: 0 auto;
 }
 .content {
+	overflow: auto;
 	width: 80%;
 	margin: 50px auto;
 	animation: fadeIn ease 1s;
@@ -224,6 +225,29 @@ table {
     margin: 0;
 }
 
+/* product page */
+.product-pg-img {
+	width: 35%;
+	float: left;
+}
+.product-pg-description {
+	float: right;
+	width: 60%;
+}
+.product-pg-description ul {
+	float: none;
+}
+.buy-btn {
+	padding: 10px;
+	background: #1f1f1f;
+	float: left;
+	margin: 14px 20px;
+}
+.buy-btn p {
+	margin: 0;
+	font-size: 12pt;
+}
+
 /* footer */
 footer {
 	background: #1f1f1f;
@@ -260,7 +284,7 @@ textarea {
 	padding: 10px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1070px) {
 	.nav-text-logo {
 		display: none;
 	}
