@@ -153,6 +153,11 @@ a:hover {
 }
 .down-arrow {
 	width: 50px;
+	transition: width 0.5s;
+}
+.down-arrow:hover {
+	width: 70px;
+	cursor: pointer;
 }
 .background-section {
 	background-attachment: fixed;
@@ -314,6 +319,9 @@ textarea {
 		margin: 20px 0;
 		text-align: center;
 	}
+}
+@media only screen and (max-width: 350px) {
+
 }
 @keyframes fadeIn {
     0% {
