@@ -257,16 +257,22 @@ table {
 footer {
 	background: #1f1f1f;
 }
+.copyright {
+	float: left;
+	display: flex;
+	margin-left: 40px;
+	margin-top: 10px;
+}
 .footer-logo {
 	height: 40px;
-	float: left;
-	padding: 30px 15px 20px 40px;
+	margin-right: 20px;
+	margin-top: 9px;
 }
 .footer-social-section {
 	float: right;
-	position: relative;
-	bottom: 25px;
-	right: 40px;
+	margin: 20px;
+	margin-right: 40px;
+	margin-top: 25px;
 }
 .footer-social {
 	height: 30px;
@@ -313,15 +319,21 @@ textarea {
 	textarea {
 		width: 100%;
 	}
-	.footer-social-section {
-		position: static;
-		float: none;
-		margin: 20px 0;
-		text-align: center;
-	}
 }
-@media only screen and (max-width: 350px) {
-
+/* compressed footer */
+@media only screen and (max-width: 630px) {
+	.copyright {
+		float: none;
+		width: 90%;
+		max-width: 320px;
+		margin: 20px auto 0;
+	}
+	.footer-social-section {
+		float: none;
+		width: 90%;
+		max-width: 190px;
+		margin: 20px auto 30px;
+	}
 }
 @keyframes fadeIn {
     0% {
