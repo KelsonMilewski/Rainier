@@ -8,6 +8,8 @@ Ryan:
 - Remove contact.html from navbar, put in footer
 - Fix mobile footer on contact.html
 - Create gallery page
+- Implement scroll-dependent animations
+- Implement paralax scrolling
 
 Kelson:
 
