@@ -242,6 +242,9 @@ table {
 .product-pg-description ul {
 	float: none;
 }
+.verified {
+	height: 25px;
+}
 .buy-btn {
 	padding: 10px;
 	background: #1f1f1f;
