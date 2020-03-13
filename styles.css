@@ -255,10 +255,19 @@ table {
 	margin: 0;
 	font-size: 12pt;
 }
+.disclaimer {
+	font-size: 10pt;
+	color: #919191;
+}
 
 /* footer */
 footer {
 	background: #1f1f1f;
+}
+footer.force-bottom {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
 }
 .copyright {
 	float: left;
