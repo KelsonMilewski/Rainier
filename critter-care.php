@@ -2,80 +2,13 @@
 <html>
 	<head>
 		<title>Critter Care - Rainier Terrariums</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="styles.css">
-		<link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
-		<link rel="shortcut icon" href="images/favicon.ico">
-		<script data-ad-client="ca-pub-8691955634362390" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154593775-1"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-			gtag('config', 'UA-154593775-1');
-		</script>
-		<!-- Media.net Ads -->
-		<script type="text/javascript">
-			window._mNHandle = window._mNHandle || {};
-			window._mNHandle.queue = window._mNHandle.queue || [];
-			medianet_versionId = "3121199";
-		</script>
-		<script src="https://contextual.media.net/dmedianet.js?cid=8CUEV7332" async="async"></script>
+		<?php include 'include/head.php'; ?>
 	</head>
 	<body>
-		<div class="navbar">
-			<img src="images/text-logo.png" alt="Rainier Terrariums" class="nav-text-logo">
-			<img src="images/logo.png" alt="Rainier Terrariums" class="nav-logo">
-
-			<nav class="expand-navbar">
-				<ul>
-					<a href="index"><li>Home</li></a>
-					<li class="nav-dropdown">
-						<a href="store" class="nav-dropdown-btn">Store</a>
-						<ul class="nav-dropdown-content">
-							<a href="store"><li>All</li></a>
-							<a href="terrariums"><li>Terrariums</li></a>
-							<a href="materials"><li>Materials</li></a>
-							<a href="plants"><li>Plants</li></a>
-							<a href="critters"><li>Critters</li></a>
-						</ul>
-					</li>
-					<a href="plant-care"><li>Plant Care</li></a>
-					<a href="critter-care"><li>Critter Care</li></a>
-				</ul>
-			</nav>
-			<nav class="collapse-navbar">
-				<img src="images/dropdown.png" alt="Pages" onclick="showHideNav()" class="dropdown-btn">
-			</nav>
-		</div>
-		<ul class="dropdown" id="dropdown">
-			<li><a href="index">Home</a></li>
-			<li onclick="showHideSubNav()" style="cursor: pointer"><a>Store</a></li>
-			<li style="text-align: center;"><a href="plant-care">Plant<br/>Care</a></li>
-			<li style="text-align: center;"><a href="critter-care">Critter<br/>Care</a></li>
-		</ul>
-		<ul class="sub-dropdown" id="sub-dropdown">
-			<li><a href="store">All</a></li>
-			<li><a href="terrariums">Terrariums</a></li>
-			<li><a href="materials">Materials</a></li>
-			<li><a href="plants">Plants</a></li>
-			<li><a href="critters">Critters</a></li>
-		</ul>
+		<?php include 'include/navbar.php'; ?>
 		<article>
             <div class="content">
 				<br/><br/>
-				<div id="759747374">
-					<script type="text/javascript">
-						try {
-							window._mNHandle.queue.push(function (){
-								window._mNDetails.loadTag("759747374", "728x90", "759747374");
-							});
-						}
-						catch (error) {}
-					</script>
-				</div>
 				<h1><i>Crested Geckos</i></h1>
 
 				<h2><u><b>Housing</b></u></h2>
@@ -108,18 +41,7 @@
 				<h2><u><b>Food</b></u></h2>
 				<p>A shallow dish of water should be given at all times for your leopard gecko. You should feed a variety of crickets, waxworms, mealworms. Insects need to be gut loaded for at least 24 hours before feeding and then covered with a calcium supplement at each feeding. Younger geckos should be fed a few crickets every day, older geckos can skip several days between meals.</p>
 
-				<br/>
-				<div id="759747374">
-					<script type="text/javascript">
-						try {
-							window._mNHandle.queue.push(function (){
-								window._mNDetails.loadTag("759747374", "728x90", "759747374");
-							});
-						}
-						catch (error) {}
-					</script>
-				</div>
-				<br/>
+				<br/><br/>
 				<h1><i>Isopods</i></h1>
 
 				<h2><u><b>Housing</b></u></h2>
@@ -141,16 +63,6 @@
 				<p>Drop in a few grains of rice into your culture. Rice will mold over and will provide a reliable food source. Exchange the old rice with new grains if they have lost interest in the older rice.</p>
 
 				<br/>
-				<div id="759747374">
-					<script type="text/javascript">
-						try {
-							window._mNHandle.queue.push(function (){
-								window._mNDetails.loadTag("759747374", "728x90", "759747374");
-							});
-						}
-						catch (error) {}
-					</script>
-				</div>
 				<h1><i>Adding Critters To Your Setup</i></h1>
 
 				<h2><u><b>Basic Information</b></u></h2>
@@ -192,21 +104,6 @@
 				</table>
 			</div>
 		</article>
-		<footer>
-			<div class="copyright">
-				<img src="images/logo.png" alt="Rainier Terrariums" class="footer-logo">
-				<h3>Copyright &copy; 2020 Kelson Milewski</h3>
-			</div>
-			<div class="footer-social-section">
-				<a href="https://discord.gg/eybXTrr" target="_blank"><img src="images/discord-logo.png" alt="Discord" class="footer-social"></a>
-				<a href="https://www.instagram.com/rainier_terrariums/" target="_blank"><img src="images/instagram-logo.png" target="_blank" alt="Instagram" class="footer-social"></a>
-				<a href="https://twitter.com/rterrariums" target="_blank"><img src="images/twitter-logo.png" target="_blank" alt="Twitter" class="footer-social"></a>
-				<a href="https://www.facebook.com/rainier.terrariums" target="_blank"><img src="images/facebook-logo.png" target="_blank" alt="Facebook" class="footer-social"></a>
-			</div>
-			<div class="footer-links">
-				<a href="contact.html">Contact Us</a>
-			</div>
-		</footer>
-		<script src="script.js"></script>
+		<?php include 'include/footer.php'; ?>
 	</body>
 </html>
