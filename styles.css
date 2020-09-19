@@ -233,36 +233,6 @@ table {
     margin: 0;
 }
 
-/* product page */
-.product-pg-img {
-	width: 35%;
-	float: left;
-}
-.product-pg-description {
-	float: right;
-	width: 60%;
-}
-.product-pg-description ul {
-	float: none;
-}
-.verified {
-	height: 25px;
-}
-.buy-btn {
-	padding: 10px;
-	background: #1f1f1f;
-	float: left;
-	margin: 14px 20px;
-}
-.buy-btn p {
-	margin: 0;
-	font-size: 12pt;
-}
-.disclaimer {
-	font-size: 10pt;
-	color: #919191;
-}
-
 /* footer */
 footer {
 	background: #1f1f1f;
