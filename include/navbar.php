@@ -16,7 +16,7 @@
 						</ul>
 					</li>
 					<a href="plant-care"><li>Plant Care</li></a>
-					<a href="critter-care"><li>Critter Care</li></a>
+					<a href="critter-care"><li>Critter Care,</li></a>
 				</ul>
 			</nav>
 			<nav class="collapse-navbar">
