@@ -4,6 +4,7 @@ Put items in order of importance please.
 
 Ryan:
 
+- Implement individual product pages | NOTE: Left off on Terrarium Essentials, start on Mini Ferns
 - Fix mobile navbar
 - Create gallery page
 - Implement scroll-dependent animations

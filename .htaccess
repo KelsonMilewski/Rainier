@@ -1,4 +1,4 @@
-# the following is for rewriting page urls to exclude the .html file extension
+# the following is for rewriting page urls to exclude the .php file extension
 # mod_rewrite starts here
 
 RewriteEngine on
@@ -7,10 +7,10 @@ RewriteEngine on
 
 RewriteCond %{REQUEST_FILENAME} !-d
 
-# check for file in directory with .html extension
+# check for file in directory with .php extension
 
-RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteCond %{REQUEST_FILENAME}\.php -f
 
-# Here we actually show the page that has the .html extension
+# Here we actually show the page that has the .php extension
 
-RewriteRule ^(.*)$ $1.html [NC,L]
+RewriteRule ^(.*)$ $1.php [NC,L]
