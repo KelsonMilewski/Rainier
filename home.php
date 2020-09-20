@@ -22,19 +22,19 @@
 				<h1 style="text-align: center">Featured Products</h1>
 				<table>
 					<tr>
-						<td class="product">
-							<a href="https://amzn.to/2HQQQlW" target="_blank">
-								<img src="images/kook-geometric-glass-terrarium.png" alt="kook" class="product-img">
+					<td class="product">
+							<a href="https://amzn.to/2HUHx49" target="_blank">
+								<img src="images/Product3.png" alt="kook" class="product-img">
 								<div class="product-description">
 									<br/>
 									<p>KooK Geometric Glass Terrarium</p>
-									<p>$21.95</p>
+									<p>$22.95</p>
 								</div>
 							</a>
 						</td>
 						<td class="product">
-							<a href="https://amzn.to/32jcngm" target="_blank">
-								<img src="images/mini-ferns-for-terrariums.png" alt="mini" class="product-img">
+							<a href="https://amzn.to/2VfXNVj" target="_blank">
+								<img src="images/product9.png" alt="mini" class="product-img">
 								<div class="product-description">
 									<p>Mini Ferns for Terrariums/Fairy Garden </p>
 									<p>$14.99</p>
@@ -42,20 +42,20 @@
 							</a>
 						</td>
 						<td class="product">
-							<a href="https://amzn.to/39SjsHg" target="_blank">
-								<img src="images/light-up-terrarium-kit2.png" alt="5" class="product-img">
+							<a href="https://amzn.to/2PiN5Ke" target="_blank">
+								<img src="images/product12.png" alt="5" class="product-img">
 								<div class="product-description">
 									<p>Succulent Plants (5 Pack), Fully Rooted in Planter Pots with Soil</p>
-									<p>$17.95</p>
+									<p>$20.02</p>
 								</div>
 							</a>
 						</td>
 						<td class="product">
-							<a href="https://amzn.to/38UEJ39" target="_blank">
-								<img src="images/mkono-3-pack-mini-glass-geometric-terrarium4.jpg" alt="led" class="product-img">
+							<a href="https://amzn.to/2v0qECE" target="_blank">
+								<img src="images/product24.jpg" alt="led" class="product-img">
 								<div class="product-description">
 									<p>LED Grow Light Strips for Plants,Cholas 36W 132 LEDs</p>
-									<p>$31.99 </p>
+									<p>$31.99</p>
 								</div>
 							</a>
 						</td>

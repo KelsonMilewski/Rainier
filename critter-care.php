@@ -72,8 +72,8 @@
 				<table>
 					<tr>
 						<td class="product">
-							<a href="https://amzn.to/32kKIvu" target="_blank">
-								<img src="images/light-up-terrarium-kit8.png" alt="iso" class="product-img">
+							<a href="https://amzn.to/37PDZL5" target="_blank">
+								<img src="images/product18.png" alt="iso" class="product-img">
 								<div class="product-description">
 									<p>Critters Direct Live Springtails + Isopods, Combo Package </p>
 									<p>$39.99</p>
@@ -81,22 +81,22 @@
 							</a>
 						</td>
 						<td class="product">
-							<a href="https://amzn.to/2wBpeyB" target="_blank">
-								<img src="images/mkono-3-pack-mini-glass-geometric-terrarium6.jpg" alt="spring" class="product-img">
+							<a href="https://amzn.to/38ZzoYs" target="_blank">
+								<img src="images/product26.jpg" alt="spring" class="product-img">
 								<div class="product-description">
 									<br/>
 									<p>Premium Live Springtails 16oz Mini Culture</p>
-									<p>$19.99 </p>
+									<p>$27.49</p>
 								</div>
 							</a>
 						</td>
 						<td class="product">
-							<a href="https://amzn.to/37Tfay2" target="_blank">
-								<img src="images/mkono-3-pack-mini-glass-geometric-terrarium7.png" alt="iso" class="product-img">
+							<a href="https://amzn.to/32pmUGP" target="_blank">
+								<img src="images/product27.png" alt="iso" class="product-img">
 								<div class="product-description">
 									<br/>
 									<p>Pocket Pets Fast Producing Roly Polys</p>
-									<p>$22.99</p>
+									<p>$24.99</p>
 								</div>
 							</a>
 						</td>

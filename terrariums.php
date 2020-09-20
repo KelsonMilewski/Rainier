@@ -10,80 +10,81 @@
             <div class="content" style="margin-top: 125px">
 				<table>
 					<tr>
-						<td class="product">
-							<a href="mkono-3-pack-mini-glass-geometric-terrarium.php">
-								<img src="images/mkono-3-pack-mini-glass-geometric-terrarium.jpg" alt="Mkono 3 Pack Mini Glass Geometric Terrarium" class="product-img">
+					<td class="product">
+							<a href="https://amzn.to/2uomJit" target="_blank">
+								<img src="images/product2.jpg" alt="Mkono" class="product-img">
 								<div class="product-description">
 									<br/>
-									<p>Mkono 3 Pack Mini Glass Geometric Terrarium</p>
-									<p>$27.98</p>
+									<p>Mkono Mini Glass Geometric Terrarium Container Set of 3</p>
+									<p>$24.98</p>
 								</div>
 							</a>
 						</td>
 						<td class="product">
-							<a href="light-up-terrarium-kit.php">
-								<img src="images/light-up-terrarium-kit.jpg" alt="Light-up Terrarium Kit for Kids" class="product-img">
+							<a href="https://amzn.to/37XXp0J" target="_blank">
+								<img src="images/Product1.jpg" alt="kids" class="product-img">
 								<div class="product-description">
-									<p>Light-up Terrarium Kit for Kids</p>
-									<p>$29.99</p>
+									<p>Light-up Terrarium Kit</p>
+									<p>$24.99</p>
 								</div>
 							</a>
 						</td>
 						<td class="product">
-							<a href="kook-geometric-glass-terrarium.php">
-								<img src="images/kook-geometric-glass-terrarium.png" alt="KooK Geometric Glass Terrarium" class="product-img">
+							<a href="https://amzn.to/2HUHx49" target="_blank">
+								<img src="images/Product3.png" alt="kook" class="product-img">
 								<div class="product-description">
 									<br/>
 									<p>KooK Geometric Glass Terrarium</p>
-									<p>$20.95</p>
+									<p>$22.95</p>
 								</div>
 							</a>
-						</td><td class="product">
-							<a href="exo-terra-nano-wide-terrarium.php">
-								<img src="images/exo-terra-nano-wide-terrarium.png" alt="EXO-TERRA Nano Wide Terrarium" class="product-img">
+						</td>
+						<td class="product">
+							<a href="https://amzn.to/2rzSaVT" target="_blank">
+								<img src="images/Product5.png" alt="exo" class="product-img">
 								<div class="product-description">
 									<br/>
 									<p>EXO-TERRA Nano Wide Terrarium</p>
-									<p>$33.97</p>
+									<p>$59.62</p>
 								</div>
 							</a>
 						</td>
 					</tr>
 					<tr>
-						<td class="product">
-							<a href="mkono-plant-terrarium-display-glass.php">
-								<img src="images/mkono-plant-terrarium-display-glass.png" alt="Mkono Plant Terrarium Display Glass" class="product-img">
+					<td class="product">
+							<a href="https://amzn.to/3bUSv7E" target="_blank">
+								<img src="images/product7.png" alt="mkono2" class="product-img">
 								<div class="product-description">
-									<p>Mkono Plant Terrarium Display Glass</p>
-									<p>$15.69</p>
+									<p>Mkono Plant Terrarium Display Glass Tabletop </p>
+									<p>$14.88</p>
 								</div>
 							</a>
 						</td>
 						<td class="product">
-							<a href="https://amzn.to/2PjJk71" target="_blank">
-								<img src="images/light-up-terrarium-kit0.png" alt="h" class="product-img">
+							<a href="https://amzn.to/2HNiJem" target="_blank">
+								<img src="images/product10.png" alt="h" class="product-img">
 								<div class="product-description">
 									<p>H Potter Glass Terrarium </p>
-									<p>$189.50</p>
+									<p>$189.50 (Currently Unavailable)</p>
 								</div>
 							</a>
 						</td>
 						<td class="product">
-							<a href="https://amzn.to/2wEmv7D" target="_blank">
-								<img src="images/mkono-3-pack-mini-glass-geometric-terrarium5.jpg" alt="slant" class="product-img">
+							<a href="https://amzn.to/32ihCgq" target="_blank">
+								<img src="images/product25.jpg" alt="slant" class="product-img">
 								<div class="product-description">
 									<p>GLASS SLANT BOWL/GLASS TERRARIUM SET OF 2</p>
-									<p>$24.99 </p>
+									<p>$24.99</p>
 								</div>
 							</a>
 						</td>
 						<td class="product">
-							<a href="https://amzn.to/2vYr1h7" target="_blank">
-								<img src="images/exo-terra-nano-wide-terrarium4.jpg" alt="hideg" class="product-img">
+							<a href="https://amzn.to/2Pf2aME" target="_blank">
+								<img src="images/Product54.jpg" alt="hideg" class="product-img">
 								<div class="product-description">
 									<br/>
-									<p> Exo Terra AllGlass Terrarium - 18 x 18 x 24  </p>
-									<p> $169.65 </p>
+									<p>Exo Terra AllGlass Terrarium - 18 x 18 x 24</p>
+									<p>$169.99</p>
 								</div>
 							</a>
 						</td>

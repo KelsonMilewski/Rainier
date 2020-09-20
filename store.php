@@ -130,7 +130,7 @@
 					<tr>
 						<td class="product">
 							<a href="https://amzn.to/32lkc54" target="_blank">
-								<img src="images/product14.jpg" alt="moss" class="product-img">
+								<img src="images/product13.jpg" alt="moss" class="product-img">
 								<div class="product-description">
 									<p>Galápagos (05213) Terrarium Sphagnum Moss</p>
 									<p>$6.99</p>

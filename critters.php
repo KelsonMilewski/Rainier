@@ -11,64 +11,63 @@
 				<table>
 					<tr>
 						<td class="product">
-							<a href="https://amzn.to/32kKIvu" target="_blank">
-								<img src="images/light-up-terrarium-kit8.png" alt="iso" class="product-img">
+							<a href="https://amzn.to/37PDZL5" target="_blank">
+								<img src="images/product18.png" alt="iso" class="product-img">
 								<div class="product-description">
-									<img src="images/verified.png" alt="Quality Verified" class="verified">
 									<p>Critters Direct Live Springtails + Isopods, Combo Package </p>
 									<p>$39.99</p>
 								</div>
 							</a>
 						</td>
 						<td class="product">
-							<a href="https://amzn.to/2wBpeyB" target="_blank">
-								<img src="images/mkono-3-pack-mini-glass-geometric-terrarium6.jpg" alt="spring" class="product-img">
+							<a href="https://amzn.to/38ZzoYs" target="_blank">
+								<img src="images/product26.jpg" alt="spring" class="product-img">
 								<div class="product-description">
 									<br/>
 									<p>Premium Live Springtails 16oz Mini Culture</p>
-									<p>$19.99 </p>
+									<p>$27.49</p>
 								</div>
 							</a>
 						</td>
 						<td class="product">
-							<a href="https://amzn.to/37Tfay2" target="_blank">
-								<img src="images/mkono-3-pack-mini-glass-geometric-terrarium7.png" alt="iso" class="product-img">
+							<a href="https://amzn.to/32pmUGP" target="_blank">
+								<img src="images/product27.png" alt="iso" class="product-img">
 								<div class="product-description">
 									<br/>
 									<p>Pocket Pets Fast Producing Roly Polys</p>
-									<p>$22.99</p>
+									<p>$24.99</p>
 								</div>
 							</a>
 						</td>
 						<td class="product">
-							<a href="https://amzn.to/2HLjJ2V" target="_blank">
-								<img src="images/adult-venus-flytrap-in-blue-terrarium0.jpg" alt="mus" class="product-img">
+							<a href="https://amzn.to/37PFBED" target="_blank">
+								<img src="images/product40.jpg" alt="mus" class="product-img">
 								<div class="product-description">
 									<br/>
-									<p>Josh's Frogs Temperate Springtail Culture </p>
+									<p>Josh's Frogs Temperate Springtail Culture</p>
 									<p>$19.99</p>
 								</div>
 							</a>
 						</td>
 					</tr>
 					<tr>
-						<td class="product">
-							<a href="https://amzn.to/2wzfyoi" target="_blank">
-								<img src="images/adult-venus-flytrap-in-blue-terrarium2.jpg" alt="mushr" class="product-img">
+					<td class="product">
+							<a href="https://amzn.to/2Ta9dY1" target="_blank">
+								<img src="images/product42.jpg" alt="mushr" class="product-img">
 								<div class="product-description">
 									<br/>
 									<p> Live Orange Smoothie Roly Polys! Rolie Polie Isopods</p>
-									<p>$9.99</p>
+									<p>$14.99</p>
 								</div>
 							</a>
 						</td>
 						<td class="product">
-							<a href="https://amzn.to/2vV9c2v" target="_blank">
-								<img src="images/adult-venus-flytrap-in-blue-terrarium3.jpg" alt="mushro" class="product-img">
+							<a href="https://amzn.to/37TbWuq" target="_blank">
+								<img src="images/product43.jpg" alt="mushro" class="product-img">
 								<div class="product-description">
 									<br/>
-									<p> Powder Orange Isopods Cleanup Crew</p>
-									<p>$26.99</p>
+									<p>Powder Orange Isopods Cleanup Crew</p>
+									<p>$30.00</p>
 								</div>
 							</a>
 						</td>
