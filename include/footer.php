@@ -10,7 +10,7 @@
 				<a href="https://www.facebook.com/rainier.terrariums" target="_blank"><img src="images/facebook-logo.png" target="_blank" alt="Facebook" class="footer-social"></a>
 			</div>
 			<div class="footer-links">
-				<a href="contact.php">Contact Us</a>
+				<a href="contact">Contact Us</a>
 			</div>
 		</footer>
 		<script src="script.js"></script>

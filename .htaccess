@@ -1,16 +1,8 @@
-# the following is for rewriting page urls to exclude the .php file extension
-# mod_rewrite starts here
-
 RewriteEngine on
 
-# does not apply to existing directories, meaning that if the folder exists on the server then don't change anything and don't run the Rule!
 
-RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
+RewriteRule ^ /%1 [NC,L,R]
 
-# check for file in directory with .php extension
-
-RewriteCond %{REQUEST_FILENAME}\.php -f
-
-# Here we actually show the page that has the .php extension
-
-RewriteRule ^(.*)$ $1.php [NC,L]
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^ %{REQUEST_URI}.html [NC,L]

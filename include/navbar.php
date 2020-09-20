@@ -4,7 +4,7 @@
 
 			<nav class="expand-navbar">
 				<ul>
-					<a href="index.html"><li>Home</li></a>
+					<a href="index"><li>Home</li></a>
 					<li class="nav-dropdown">
 						<a href="store" class="nav-dropdown-btn">Store</a>
 						<ul class="nav-dropdown-content">
@@ -24,7 +24,7 @@
 			</nav>
 		</div>
 		<ul class="dropdown" id="dropdown">
-			<li><a href="index.html">Home</a></li>
+			<li><a href="index">Home</a></li>
 			<li onclick="showHideSubNav()" style="cursor: pointer"><a>Store</a></li>
 			<li style="text-align: center;"><a href="plant-care">Plant<br/>Care</a></li>
 			<li style="text-align: center;"><a href="critter-care">Critter<br/>Care</a></li>
