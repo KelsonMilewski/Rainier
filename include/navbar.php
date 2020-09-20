@@ -1,23 +1,22 @@
-        <div class="navbar">
+		<div class="navbar">
 			<img src="images/text-logo.png" alt="Rainier Terrariums" class="nav-text-logo">
 			<img src="images/logo.png" alt="Rainier Terrariums" class="nav-logo">
 
 			<nav class="expand-navbar">
 				<ul>
-					<li><a href="index.php">Home</a></li>
+					<a href="index"><li>Home</li></a>
 					<li class="nav-dropdown">
-						<a href="store.php" class="nav-dropdown-btn">store</a>
+						<a href="store" class="nav-dropdown-btn">Store</a>
 						<ul class="nav-dropdown-content">
-							<li><a href="store.php">All</a></li>
-							<li><a href="terrariums.php">Terrariums</a></li> 
-							<li><a href="materials.php">Materials</a></li>
-							<li><a href="plants.php">Plants</a></li>
-							<li><a href="critters.php">Critters</a></li>
+							<a href="store"><li>All</li></a>
+							<a href="terrariums"><li>Terrariums</li></a>
+							<a href="materials"><li>Materials</li></a>
+							<a href="plants"><li>Plants</li></a>
+							<a href="critters"><li>Critters</li></a>
 						</ul>
 					</li>
-					<li><a href="PlantCare.php">Plant Care</a></li>
-					<li><a href="CritterCare.php">Critter Care</a></li>
-					<li><a href="contact.php">Contact Us</a></li>
+					<a href="plant-care"><li>Plant Care</li></a>
+					<a href="critter-care"><li>Critter Care</li></a>
 				</ul>
 			</nav>
 			<nav class="collapse-navbar">
@@ -25,16 +24,15 @@
 			</nav>
 		</div>
 		<ul class="dropdown" id="dropdown">
-			<li><a href="index.php">Home</a></li>
-			<li onclick="showHideSubNav()" style="cursor: pointer"><a>store</a></li>
-			<li style="text-align: center;"><a href="PlantCare.php">Plant<br/>Care</a></li>
-			<li style="text-align: center;"><a href="CritterCare.php">Critter<br/>Care</a></li>
-	  		<li style="text-align: center;"><a href="contact.php">Contact<br/>Us</a></li>
+			<li><a href="index">Home</a></li>
+			<li onclick="showHideSubNav()" style="cursor: pointer"><a>Store</a></li>
+			<li style="text-align: center;"><a href="plant-care">Plant<br/>Care</a></li>
+			<li style="text-align: center;"><a href="critter-care">Critter<br/>Care</a></li>
 		</ul>
 		<ul class="sub-dropdown" id="sub-dropdown">
-			<li><a href="store.php">All</a></li>
-			<li><a href="terrariums.php">Terrariums</a></li>
-			<li><a href="materials.php">Materials</a></li>
-			<li><a href="plants.php">Plants</a></li>
-			<li><a href="critters.php">Critters</a></li>
+			<li><a href="store">All</a></li>
+			<li><a href="terrariums">Terrariums</a></li>
+			<li><a href="materials">Materials</a></li>
+			<li><a href="plants">Plants</a></li>
+			<li><a href="critters">Critters</a></li>
 		</ul>
